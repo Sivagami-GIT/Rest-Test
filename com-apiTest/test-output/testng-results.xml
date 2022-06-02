@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-02T08:13:35 PDT" name="Default suite" finished-at="2022-06-02T08:13:42 PDT" duration-ms="7064">
+    <groups>
+    </groups>
+    <test started-at="2022-06-02T08:13:35 PDT" name="Default test" finished-at="2022-06-02T08:13:42 PDT" duration-ms="7064">
+      <class name="com.apex.UserApi.UserApiPostTest">
+        <test-method signature="addNewUserWithExistingEmail()[pri:0, instance:com.apex.UserApi.UserApiPostTest@3e96bacf]" started-at="2022-06-02T08:13:35 PDT" name="addNewUserWithExistingEmail" finished-at="2022-06-02T08:13:36 PDT" duration-ms="1724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUserWithExistingEmail -->
+        <test-method signature="addUserValidData()[pri:0, instance:com.apex.UserApi.UserApiPostTest@3e96bacf]" started-at="2022-06-02T08:13:36 PDT" name="addUserValidData" finished-at="2022-06-02T08:13:37 PDT" duration-ms="1100" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [422]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [422]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.apex.core.HttpResponseValidator.basicValidation(HttpResponseValidator.java:8)
+at com.apex.UserApi.UserApiPostTest.addUserValidData(UserApiPostTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserValidData -->
+        <test-method signature="addWithBlankData()[pri:0, instance:com.apex.UserApi.UserApiPostTest@3e96bacf]" started-at="2022-06-02T08:13:37 PDT" name="addWithBlankData" finished-at="2022-06-02T08:13:39 PDT" duration-ms="1092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithBlankData -->
+        <test-method signature="addWithBlankUserEmail()[pri:0, instance:com.apex.UserApi.UserApiPostTest@3e96bacf]" started-at="2022-06-02T08:13:39 PDT" name="addWithBlankUserEmail" finished-at="2022-06-02T08:13:39 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithBlankUserEmail -->
+        <test-method signature="addWithBlankUserGender()[pri:0, instance:com.apex.UserApi.UserApiPostTest@3e96bacf]" started-at="2022-06-02T08:13:39 PDT" name="addWithBlankUserGender" finished-at="2022-06-02T08:13:39 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithBlankUserGender -->
+        <test-method signature="addWithBlankUserName()[pri:0, instance:com.apex.UserApi.UserApiPostTest@3e96bacf]" started-at="2022-06-02T08:13:39 PDT" name="addWithBlankUserName" finished-at="2022-06-02T08:13:39 PDT" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithBlankUserName -->
+        <test-method signature="addWithBlankUserStatus()[pri:0, instance:com.apex.UserApi.UserApiPostTest@3e96bacf]" started-at="2022-06-02T08:13:39 PDT" name="addWithBlankUserStatus" finished-at="2022-06-02T08:13:39 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithBlankUserStatus -->
+        <test-method signature="addWithNullData()[pri:0, instance:com.apex.UserApi.UserApiPostTest@3e96bacf]" started-at="2022-06-02T08:13:39 PDT" name="addWithNullData" finished-at="2022-06-02T08:13:41 PDT" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithNullData -->
+        <test-method signature="addWithSplCharData()[pri:0, instance:com.apex.UserApi.UserApiPostTest@3e96bacf]" started-at="2022-06-02T08:13:41 PDT" name="addWithSplCharData" finished-at="2022-06-02T08:13:42 PDT" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithSplCharData -->
+      </class> <!-- com.apex.UserApi.UserApiPostTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

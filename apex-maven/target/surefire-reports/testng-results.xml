@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-06T18:30:13 PDT" name="Command line suite" finished-at="2022-05-06T18:30:34 PDT" duration-ms="21206">
+    <groups>
+    </groups>
+    <test started-at="2022-05-06T18:30:13 PDT" name="Command line test" finished-at="2022-05-06T18:30:34 PDT" duration-ms="21206">
+      <class name="com.apex.UserApi.UserAPIGetTest">
+        <test-method signature="testBlankUserId()[pri:0, instance:com.apex.UserApi.UserAPIGetTest@661972b0]" started-at="2022-05-06T18:30:13 PDT" name="testBlankUserId" finished-at="2022-05-06T18:30:15 PDT" duration-ms="2095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankUserId -->
+        <test-method signature="testInvalidUserId(java.lang.String)[pri:0, instance:com.apex.UserApi.UserAPIGetTest@661972b0]" started-at="2022-05-06T18:30:15 PDT" name="testInvalidUserId" data-provider="getInValisUsers" finished-at="2022-05-06T18:30:16 PDT" duration-ms="1514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUserId -->
+        <test-method signature="testInvalidUserId(java.lang.String)[pri:0, instance:com.apex.UserApi.UserAPIGetTest@661972b0]" started-at="2022-05-06T18:30:16 PDT" name="testInvalidUserId" data-provider="getInValisUsers" finished-at="2022-05-06T18:30:18 PDT" duration-ms="1587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUserId -->
+        <test-method signature="testNullUserId()[pri:0, instance:com.apex.UserApi.UserAPIGetTest@661972b0]" started-at="2022-05-06T18:30:18 PDT" name="testNullUserId" finished-at="2022-05-06T18:30:20 PDT" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullUserId -->
+        <test-method signature="testSuccessDataValidUser(java.lang.String)[pri:0, instance:com.apex.UserApi.UserAPIGetTest@661972b0]" started-at="2022-05-06T18:30:20 PDT" name="testSuccessDataValidUser" data-provider="getValidUser" finished-at="2022-05-06T18:30:21 PDT" duration-ms="1538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2382]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessDataValidUser -->
+        <test-method signature="testSuccessDataValidUser(java.lang.String)[pri:0, instance:com.apex.UserApi.UserAPIGetTest@661972b0]" started-at="2022-05-06T18:30:21 PDT" name="testSuccessDataValidUser" data-provider="getValidUser" finished-at="2022-05-06T18:30:23 PDT" duration-ms="1641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2390]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessDataValidUser -->
+        <test-method signature="testSuccessDataValidUser(java.lang.String)[pri:0, instance:com.apex.UserApi.UserAPIGetTest@661972b0]" started-at="2022-05-06T18:30:23 PDT" name="testSuccessDataValidUser" data-provider="getValidUser" finished-at="2022-05-06T18:30:24 PDT" duration-ms="1637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2220]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessDataValidUser -->
+      </class> <!-- com.apex.UserApi.UserAPIGetTest -->
+      <class name="com.apex.UserApi.UserApiPostTest">
+        <test-method signature="addNewUserWithExistingEmail()[pri:0, instance:com.apex.UserApi.UserApiPostTest@5af3afd9]" started-at="2022-05-06T18:30:24 PDT" name="addNewUserWithExistingEmail" finished-at="2022-05-06T18:30:26 PDT" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUserWithExistingEmail -->
+        <test-method signature="addUserValidData()[pri:0, instance:com.apex.UserApi.UserApiPostTest@5af3afd9]" started-at="2022-05-06T18:30:26 PDT" name="addUserValidData" finished-at="2022-05-06T18:30:28 PDT" duration-ms="1745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserValidData -->
+        <test-method signature="addWithBlankData()[pri:0, instance:com.apex.UserApi.UserApiPostTest@5af3afd9]" started-at="2022-05-06T18:30:28 PDT" name="addWithBlankData" finished-at="2022-05-06T18:30:29 PDT" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithBlankData -->
+        <test-method signature="addWithBlankUserEmail()[pri:0, instance:com.apex.UserApi.UserApiPostTest@5af3afd9]" started-at="2022-05-06T18:30:29 PDT" name="addWithBlankUserEmail" finished-at="2022-05-06T18:30:29 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithBlankUserEmail -->
+        <test-method signature="addWithBlankUserGender()[pri:0, instance:com.apex.UserApi.UserApiPostTest@5af3afd9]" started-at="2022-05-06T18:30:29 PDT" name="addWithBlankUserGender" finished-at="2022-05-06T18:30:29 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithBlankUserGender -->
+        <test-method signature="addWithBlankUserName()[pri:0, instance:com.apex.UserApi.UserApiPostTest@5af3afd9]" started-at="2022-05-06T18:30:29 PDT" name="addWithBlankUserName" finished-at="2022-05-06T18:30:31 PDT" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithBlankUserName -->
+        <test-method signature="addWithBlankUserStatus()[pri:0, instance:com.apex.UserApi.UserApiPostTest@5af3afd9]" started-at="2022-05-06T18:30:31 PDT" name="addWithBlankUserStatus" finished-at="2022-05-06T18:30:31 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithBlankUserStatus -->
+        <test-method signature="addWithNullData()[pri:0, instance:com.apex.UserApi.UserApiPostTest@5af3afd9]" started-at="2022-05-06T18:30:31 PDT" name="addWithNullData" finished-at="2022-05-06T18:30:32 PDT" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithNullData -->
+        <test-method signature="addWithSplCharData()[pri:0, instance:com.apex.UserApi.UserApiPostTest@5af3afd9]" started-at="2022-05-06T18:30:32 PDT" name="addWithSplCharData" finished-at="2022-05-06T18:30:34 PDT" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWithSplCharData -->
+      </class> <!-- com.apex.UserApi.UserApiPostTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
